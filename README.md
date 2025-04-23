@@ -8,6 +8,19 @@ This is the backend service for the Mood Market Whisperer application, providing
 - Market trend prediction based on text analysis
 - RESTful API for frontend integration
 
+## NLP Technologies
+
+This backend implements advanced natural language processing techniques:
+
+- **Transformer Models**: Leveraging state-of-the-art transformer architecture for deep contextual understanding of financial texts
+- **Sentiment Analysis**: Using specialized financial sentiment analysis models to detect market sentiment
+- **Named Entity Recognition**: Identifying companies, products, and financial terms in text data
+- **Text Classification**: Categorizing news and social media content based on market impact
+- **NLTK**: Natural Language Toolkit for tokenization and text preprocessing
+- **TextBlob**: For simplified sentiment analysis and text classification
+- **Scikit-learn**: For feature extraction and model evaluation
+- **PyTorch**: Powering the core of our deep learning models
+
 ## Setup and Installation
 
 ### Prerequisites
@@ -58,6 +71,15 @@ By default, the server runs on port 8000.
 - `api.py`: FastAPI routes and endpoint definitions
 - `nlp_service.py`: Core NLP processing functionality
 - `requirements.txt`: Project dependencies
+
+## Deployment Checklist
+
+✅ Environment variables configuration  
+✅ Dependencies listed in requirements.txt  
+✅ Error handling and logging  
+✅ CORS configuration for frontend integration  
+✅ API documentation  
+✅ Rate limiting for public endpoints  
 
 ## License
 
